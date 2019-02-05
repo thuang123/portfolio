@@ -1,21 +1,12 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import ProfilePicture from './res/avatar_image.jpg';
 
 class Contact extends Component {
     render() {
         return(
             <div className="contact-body">
                 <Grid className="contact-grid">
-                    <Cell col={6}>
-                        <h2>Tony Huang</h2>
-                        <img
-                            src={ProfilePicture}
-                            alt="avatar"
-                            style={{height: '250px'}}/>
-                            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Testing.. Description..</p>
-                    </Cell>
-                    <Cell col={6}>
+                    <Cell col={12}>
                         <h2>Contact Me</h2>
                         <hr/>
                         <div className="contact-list">
