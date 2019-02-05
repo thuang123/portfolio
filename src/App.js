@@ -10,10 +10,16 @@ class App extends Component {
         <div className="demo-big-content">
           <Layout>
             <Header className="header-color" title="Personal Profile" scroll>
-              <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
+              <Navigation className="navigation-text">
+                <Link to="/home">
+                  <i className="fa fa-home" aria-hidden="true"/>
+                </Link>
+                <Link to="/resume">
+                  <i className="fa fa-id-card" aria-hidden="true"/>
+                </Link>
+                <Link to="/contact">
+                  <i className="fa fa-at" aria-hidden="true"/>
+                </Link>
               </Navigation>
             </Header>
             <Content>

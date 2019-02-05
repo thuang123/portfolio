@@ -16,6 +16,12 @@
   height: 100%;
 }
 
+.navigation-text i{
+  color: white;
+  font-size: 2em;
+  padding: 8px;
+}
+
 /* Resume page css */
 .resume-right-col {
   background: #27221F;
