@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-class WorkExperience extends Component {
+const Descriptions = (props) => {
+    return props.des.map((item) => <p>- {item}</p>)
+}
+
+class Projects extends Component {
     render() {
         return(
             <Grid>
@@ -9,12 +13,12 @@ class WorkExperience extends Component {
                     <p>{this.props.startDate} - {this.props.endDate}</p>
                 </Cell>
                 <Cell col={8}>
-                    <h4 style={{marginTop: '0px'}}>{this.props.companyAndPosition}</h4>
-                    <p>{this.props.jobDescription}</p>
+                    <h4 style={{marginTop: '0px'}}>{this.props.projectName}</h4>
+                    <Descriptions des={this.props.projectDescription}/>
                 </Cell>
             </Grid>
         )
     }
 }
 
-export default WorkExperience;
+export default Projects;

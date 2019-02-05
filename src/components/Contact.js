@@ -12,14 +12,14 @@ class Contact extends Component {
                         <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', paddingLeft: '12em'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/>
                                     (778)-233-2282
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', paddingLeft: '12em'}}>
                                     <i className="fa fa-envelope" aria-hidden="true"/>
                                         thuang.cpsc@gmail.com
                                 </ListItemContent>
